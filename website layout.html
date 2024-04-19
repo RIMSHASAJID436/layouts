@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Layout</title>
+    <style>
+        table {
+            border: 2px solid black;
+            width: 370px;
+            padding: 5px;
+            margin-top: 200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .col1,
+        .col3,
+        .col5 {
+            background-color: rgb(233, 137, 69);
+            border: 2px solid black;
+        }
+
+        .col2,
+        .col4,
+        .col6 {
+            background-color: cornflowerblue;
+            border: 2px solid black;
+        }
+
+        .col7 {
+            background-color: rgb(247, 247, 141);
+            border: 2px solid black;
+        }
+
+        .col5:hover {
+            background-color: rgb(110, 38, 38);
+            scale: 1.1;
+            cursor: pointer;
+        }
+
+        .col1:hover {
+            background-color: rgb(110, 38, 38);
+            scale: 1.1;
+            cursor: pointer;
+        }
+
+        .col3:hover {
+            background-color: rgb(110, 38, 38);
+            scale: 1.1;
+            cursor: pointer;
+        }
+
+        .col2:hover {
+            background-color: rgb(58, 58, 233);
+            scale: 1.1;
+            cursor: pointer;
+        }
+
+        .col4:hover {
+            background-color: rgb(58, 58, 233);
+            scale: 1.1;
+            cursor: pointer;
+        }
+
+        .col6:hover {
+            background-color: rgb(58, 58, 233);
+            scale: 1.1;
+            cursor: pointer;
+        }
+
+        .col7:hover {
+            background-color: yellowgreen;
+            scale: 1.1;
+            cursor: pointer;
+        }
+        .links a{
+            text-decoration: none;
+          
+        }
+        .links a:hover{
+            font-size: large;
+            transition: .5s;
+            color: brown;
+            text-decoration: underline;
+        }
+        .links{
+            width: 50%;
+            display: flex;
+           justify-content: space-around;
+           margin-left: 300px;
+           margin-top: 30px;
+        }
+        .table{
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="links">
+        <a href="website layout.html">1 <sup>st</sup> Layout</a>
+        <a href="web layout 3.html">2 <sup>nd</sup> Layout</a>
+        <a href="index.html">3 <sup>rd</sup> Layout</a>
+    </div>
+
+    <table class="table" style="border-spacing: 8px;">
+        <tr>
+            <td class="col1" height="60px" width="60px"></td>
+            <td colspan="2" class="col2" height="60px" width="150px"></td>
+        </tr>
+        <tr>
+            <td class="col3" height="60px" width="60px"></td>
+            <td colspan="2" class="col4" height="60px" widht="150"></td>
+        </tr>
+        <tr>
+            <td class="col5" height="60px" width="60px"></td>
+            <td colspan="2" class="col6" height="60px" width="150px"></td>
+
+        </tr>
+        <tr>
+            <td colspan="3" class="col7" height="60px" width="210px"></td>
+        </tr>
+    </table>
+</body>
+
+</html>

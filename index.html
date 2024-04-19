@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        table{
+            border: 1px solid black;
+            background-color: rgb(248, 248, 113);
+            margin: 10px auto;
+margin-top: 90px;
+border-spacing: 0.2cm;
+        }
+#head{
+    border: 1px solid black;
+    width: 500px;
+    height: 30px;
+    background-color: rgb(62, 168, 115);
+    text-align: center;
+}
+#menu{
+    border: 1px solid black;
+    width: 370px;
+    height: 10px;
+    background-color:rgb(172, 206, 218);
+    text-align: center;
+}
+#men{
+    background-color: rgb(73, 73, 165);
+            height: 60%;
+            width: 15%;
+          font-size: larger;
+         padding-bottom: 370px; 
+         border: 1px solid black;
+}
+#con{
+    background-color: rgb(157, 77, 231);
+           font-size: larger;
+           font-weight: bolder;
+           width: 70%;
+           padding-bottom: 370px;
+           border: 1px solid black;
+}
+#foot{
+    border: 1px solid black;
+    background-color: rgb(245, 129, 129);
+   
+    height: 20px;
+    text-align: center;
+}
+#head:hover{
+    cursor: pointer;
+    background-color: green;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+   font-size: large;
+color: beige;
+}
+#menu:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+   font-size: larger;}
+#men:hover{
+   
+    cursor: pointer;
+    background-color: rgb(59, 59, 192);
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+   font-size: larger;color: white;}
+
+#con:hover{
+    cursor: pointer;
+    background-color: rgb(92, 22, 92);
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+   font-size: larger;color: white;
+
+}
+#foot:hover{
+    cursor: pointer;
+    background-color: rgb(136, 36, 36);
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+   font-size: larger;color: white;
+}
+.links a{
+            text-decoration: none;
+          
+        }
+        .links a:hover{
+            font-size: large;
+            transition: .5s;
+            color: brown;
+            text-decoration: underline;
+        }
+        .links{
+            width: 50%;
+            display: flex;
+           justify-content: space-around;
+           margin-left: 300px;
+           margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="links">
+        <a href="website layout.html">1 <sup>st</sup> Layout</a>
+        <a href="web layout 3.html">2 <sup>nd</sup> Layout</a>
+        <a href="index.html">3 <sup>rd</sup> Layout</a>
+    </div>
+    <table>
+        <tr>
+            <th colspan="6" id="head">Header</th>
+        </tr>
+        <tr><th colspan="6" id="menu">Menu</th></tr>
+<tr><th id="men">Menu</th><Th id="con">Content</Th></tr>
+<tr><th colspan="6" id="foot">Footer</th></tr>
+
+    </table>
+
+
+
+</body>
+</html>
